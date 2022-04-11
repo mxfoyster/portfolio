@@ -1,0 +1,105 @@
+html, body 
+{
+	position:fixed;
+	height: 100vh;
+	width: 100vw;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("../images/bkg.png");
+	background-size: cover;
+	
+	color: darkblue;
+	opacity: 95%;
+}
+
+li
+{
+	font-weight: bold;
+	font-style: italic;
+}
+
+.middleInner
+{
+	position: relative;
+	padding: 2rem;
+	overflow-y: auto;
+	max-height: 70vw;
+}
+
+.header
+{
+	position: absolute; 
+	top: 5px;
+	width: 80vw;
+	left: 10vw;
+	height: 75px;
+	background-color: darkgray;
+	border-style: outset;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.middle
+{
+	position: absolute;
+	top: 93px;
+	width: 80vw;
+	left: 10vw;
+	bottom: 88px;
+	max-height: 70vw;
+	background-color: darkgray;
+	border-style: outset;
+	border-radius: 10px;
+	text-align: left;
+	overflow-y: hidden;
+}
+
+.footer
+{
+	position: absolute; 
+	width: 80vw;
+	height:70px;
+	left: 10vw;
+	bottom:5px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: darkgray;
+	border-style: outset;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.footerTable
+{
+	width: 100%;
+}
+
+.email
+{
+	display: block;
+}
+
+.jsText
+{
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 1.2rem;
+	color: black;
+	font-style: italic;
+}
+
+.jsIcon
+{
+	vertical-align: middle;
+}
+
+.ftCells
+{
+	width: calc(100% /3);
+}
+
+/* .emailIcon
+{
+	position: inherit;
+	display: inline;
+	vertical-align: middle;
+} */

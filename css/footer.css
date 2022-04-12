@@ -1,0 +1,100 @@
+ @font-face 
+{
+    font-family: Caveat-Medium;
+    src: url("../fonts/Caveat-Medium.ttf");
+}
+    
+@keyframes flspin 
+{
+    0%, 100%  {background-image: url("../images/html.png");}    
+    33%  {background-image: url("../images/css.png");}
+    66%   {background-image: url("../images/JavaScript.png");}
+}
+
+.footer
+{
+	position: absolute; 
+	width: 80vw;
+	height:72px;
+	left: 10vw;
+	bottom:5px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: linear-gradient(darkgray,dimgray);
+	border-style: outset;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 4px 2px gray;
+}
+
+.footerTable
+{
+	width: 100%;
+}
+
+.email
+{
+	display: block;
+}
+
+.jsText
+{
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 1.2rem;
+	color: black;
+	font-style: italic;
+    vertical-align: middle;
+}
+
+.footerTable
+{
+	width: 100%;
+}
+
+.email
+{
+	display: block;
+}
+
+.jsText
+{
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 1.2rem;
+	color: black;
+	font-style: italic;
+}
+
+.jsIcon
+{
+	vertical-align: middle;
+}
+
+.ftCells
+{
+	width: calc(100% /3);
+}
+.ftCells
+{
+	width: calc(100% /3);
+}
+
+#footerLogo 
+{
+    width: 64px;
+    height: 64px;
+    animation-name: flspin;
+    animation-duration: 9s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    display: inline-block;
+}
+
+#ftMidText
+{
+   font-family: Caveat-Medium;
+   font-size: 30px;
+}
+
+
+
+  

@@ -1,0 +1,27 @@
+@font-face 
+{
+    font-family: PermanentMarker;
+    src: url("../fonts/PermanentMarker-Regular.ttf");
+}
+
+h1 
+{
+	font-family: PermanentMarker;
+    font-size: 50px;
+    line-height: 0px;
+    text-shadow: 2px 2px 5px lightblue;
+}
+
+.header
+{
+	position: absolute; 
+	top: 5px;
+	width: 80vw;
+	left: 10vw;
+	height: 75px;
+	background-image: linear-gradient(dimgray,darkgray);
+	border-style: outset;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 4px 2px gray;
+}

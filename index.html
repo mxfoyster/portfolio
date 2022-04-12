@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/middle.css">
     <link rel="stylesheet" href="css/footer.css">
-    <script src="anim_h3.js" defer></script>
+    <script src="js/anim_h3.js" defer></script>
+    <script src="js/TimeOfDay.js" defer></script>
 </head>
 <body>
     <div class="header">
@@ -20,53 +21,135 @@
             <h3>Introduction</h3>
             <img  id="headShot" src="images/mugshot2.png" alt="Photo of me, quite ugly">
             <div id="intro-div">
-            <p>Good <span id="day_time">day</span>. If you're here, you're probably interested in learning a little more about me. I have made 
-            this website precisely for that purpose.</p> 
+            <p>Good <span id="day_time">day</span>. If you're here, you're probably interested in learning a little more about me. You are in the 
+            right place. Please excuse the ugly mug shot, I'm not exactly photogenic and I took this one in a hurry. It's a slight improvement on 
+            the one in my Linkedin and Github account.</p> 
+
+            <p>Below are a few details, mostly about my IT background. At the very bottom, there is a bit more information about my other interests.
+            On a more general note, I would like to add that I love problem solving, and whilst I'm not afraid to use an existing solution, I 
+            thrive when I have the opportunity to create my own. It is for these reasons that software development and I fit together well.</p>
 
             <p>If you don't see the information you want or you would like a copy of my CV, please feel free
             to tap the email symbol on the right hand side of the bar at the bottom and send me a message.</p>
             </div>
-            <h3>Languages</h3>
+            <h3>Programming Languages</h3>
+            <div id="langBodyDiv">
             <ul>
             <li>WEB BASED</li>
-                <P>Mostly <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>PHP</b> and <b>MySQL</b>.Examples of some of my 'play time' projects include 
-                    my <a href="http://mark-foyster.epizy.com/kayak/">Soggy Bottom</a> Kayak website, and my 
-                    <a href="http://mark-foyster.epizy.com/watersports/index.php">Using Real Data</a> project. The source for the latter is available
-                    on my <a href="https://github.com/mxfoyster">GitHub</a> page, the former is currently private as I have referenced some of the 
-                    code in it as part of my <i>NCFE Level 3 Coding Concepts</i> course. It will be made public soon but can be looked at through 
-                    other means by arrangement along with other work.</p> 
+                <h4>Current:</h4>
+                    <p><b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>PHP</b> and <b>MySQL</b> recently for both personal projects and as material 
+                    for L3 NCFE Coding Practices. I'm interested in learning React.js or a similar framework soon, I wish to polish up my JavaScript
+                     further first.</p>
+                <h4>In the past:</h4>
+                    <p><b>XML</b> and <b>XSLT</b> combined with above technologies to make a simple CMS system for a Business Forum website. I 
+                    played with <b>PERL</b> a bit before PHP became popular (very distant past). </p>               
                     <p> I have designed and maintained a number of commercial websites over the years. Sadly, none of them are active any more as 
-                        some time has passed.</p>
+                        some time has passed.</p><hr/>
             
             <li>COMPILED</li>
-                <p>Recently, <b>C#</b> (mostly Console and Unity3D ). I used to be quite fluent with <b>C++</b> but it's been a while 
-                    (I intend to remedy Shortly!). Further back, I used to use <b>Pascal</b> in my late teens.</p> 
-            
+                
+                <h4>Current:</h4>
+                <p><b>C#</b> with simple console apps and within Unity3D. Again, this was for a mixture of personal projects and for assessment 
+                material. I will look at more detail at some of the other parts of the <b>.NET</b> framework soon.   
+                <h4>In the past:</h4>
+                <p><b>C++</b>, mostly for fun and during a Level 2 course I did many years ago. I look forward to brushing up on this soon.</p>     
+                <p><b>Pascal</b> during my College days and for a while afterwards. Mostly Borland Turbo Pascal, I had my share of fun with 
+                this language:</p> <hr>
+              
             <li>OTHER</li>
-                <p>I have used various scripting languages including batch flies for DOS back in the day, assorted shell scripts in Linux, etc.</p> 
+                <p>I have used various scripting languages including batch files for DOS back in the day, assorted shell scripts in Linux, etc.</p> 
                 <p>Recently, I picked up <b>Markdown</b> which I used to make GitHub Wiki's. Being as it's so simple, I wouldn't call it much of
                     a skill.</p>
                 <p>As a child I programmed in various iterations of <b>Basic</b> quite a bit. It got me started.</P>
             </ul>
-            
+            </div>
+            <h3>I.T. Qualifications</h3>
+            <div id="langBodyDiv">
+                <h4>NCFE Level NCFE Level 3 User Experience/User Interface (UX/UI)</h4>
+                <p><b>Ongoing</b> I will begin studying this on the 19th April 2022 unless I get a job that would make this impractical. The 
+                course is very much as described. More information on it's contents is available 
+                <a href="https://www.qualhub.co.uk/media/19898/603-7619-3-qualification-specification-version-10.pdf"> HERE</a>.</p>
+                <h4>NCFE Level 3 Certificate in Coding Practices</h4>
+                <p>Completed in early April 2022 pending moderation, this course covered much more than just code. It focused on the entire 
+                    development cycle and made strong reference to <i>Scrum</i> and other <i>Agile</i> methodologies. Additionally, we were taught 
+                    about Test Driven Development, UI/UX, Deployment and many other areas of Software engineering. More information on the course
+                    content can be found <a href="https://www.qualhub.co.uk/media/20704/603-5793-9-qualification-factsheet-version-10.pdf">HERE</a>.
+                 </p>
+                 <h4>TQUK Level 2 Certificate in IT User Skills (RQF)</h4>
+                 <p>Pretty basic stuff completed 10th Degember 2021. Using the standard <i>MS Office</i> apps or similar, internet, email etc. 
+                    Understanding about security and data integrity. It was free and whilst I am able to use pretty much any software, it doesn't 
+                    hurt to have a piece of paper that proves it. More information about the content 
+                    <a href="https://www.tquk.org/wp-content/uploads/sites/2/2021/08/TQUK-Level-2-Certificate-in-IT-User-skills-RQF-V2U.pdf">
+                    HERE</a>.</p>
+                <h4>City & Guilds level 2 in programming C++</h4>
+                <p>This is an oldie, back around 1995 - 1996. This was completely based on C++, Borland if I recall correctly. We made simple
+                    Console based programs, learnt how to handle and sort data directly, garbage collect and a little bit of <i>OOP</i>. 
+                    I continued afterwards to further develop these skills. It's been a while now, but I am very keen to go back to it.</p>
+            </div>
+            <h3>Links to my work</h3>
+            <div class="otherBodyDivs">
+                <p>Some of the the projects I am showing here, in particular those further down each table are very crude, they are all proof of
+                 concept and are should be considered demos or functional prototypes. </p>
+            <h4 style="text-align: center;">Web projects</h4>
+            <table class="linksTable">
+            <tr><th>Project Name</th><th>Link</th><th>Repository</th></tr>
+            <tr>
+                <td>'Soggy Bottom' Kayak Website</td>
+                <td><a href="http://mark-foyster.epizy.com/kayak/">http://mark-foyster.epizy.com/kayak/</a></td>
+                <td>(Available post Assessment)</td></tr>
+            <tr>
+                <td>Using Real Data</td>
+                <td><a href="http://mark-foyster.epizy.com/watersports/index.php">http://mark-foyster.epizy.com/watersports/index.php</a></td>
+                <td><a href="https://github.com/mxfoyster/UsingRealData1">https://github.com/mxfoyster/UsingRealData1</a></td>
+            </tr>
+            <tr>
+                <td>Web Graph</td>
+                <td>(Not currently live)</td>
+                <td><a href="https://github.com/mxfoyster/WebGraph">https://github.com/mxfoyster/WebGraph</a></td>
+            </tr>
+            <tr><td>Word Game</td><td>http://mark-foyster.epizy.com/</td><td>(Available post Assessment)</td></tr>
+            </table>
+
+            <h4 style="text-align: center;">Unity projects</h4>
+            <table class="linksTable">
+            <tr><th>Project Name</th><th>Repository</th></tr>
+            <tr>
+                <td>Modular Unity Bits</td>
+                <td><a href="https://github.com/mxfoyster/ModularUnityBits">https://github.com/mxfoyster/ModularUnityBits</a></td>
+            </tr>
+            <tr>
+                <td>Penguin Flyer</td>
+                <td><a href="https://github.com/mxfoyster/PenguinFlyer">https://github.com/mxfoyster/PenguinFlyer</a></td>
+            </tr>
+            <tr>
+                <td>Unity Word game</td>
+                <td>(Available post Assessment)</td>
+            </tr>
+            </table>
+
+            <h4>Other projects</h4>
+               <p>Watch this space, more coming! Keep an eye on my <a href="https://github.com/mxfoyster/">GitHub</a> page too.</p>
+            </div>
             <h3>Environments (O/S)</h3>
-            <p>Whilst a majority of my time has been spent within the <b>MS WIndows</b> environment, I really enjoyed the days of the <b>MS DOS</b>
+            <div class="otherBodyDivs">
+            <p>Whilst a majority of my time has been spent within the <b>MS Windows</b> environment, I really enjoyed the days of the <b>MS DOS</b>
                 command prompt. I have played quite a bit with <b>Linux</b> in the past, I even had a stint with <b>Unix</b> and an old <b>Xenix</b>
                 server that ran a number of Wyse terminals. I helped with routine maintenance on this system.</p>
                 
                 <p>I owned a <i>Macbook</i> for a few years which I loved and got used to the <b>OS-X</b> environment. Having the ability to open
                 up a terminal and get to a <i>'Bash'</i> style environment was appealing to me too. In my youth, we had some legacy hardware
                 around and I had the opportunity to play with some <i>TRS-80's</i> which ran <b>TRS-DOS</b> in 5 1/4" Floppy's which was fun.</p>
-
+            </div>
             <h3>Other Interests & Activities</h3>
+            <div class="otherBodyDivs">
             <p>I am interested in technology and science in general including engineering. I have played with electronics in the past including 
                 Arduino. I maintain my own and immediate family's vehicles, from servicing and minor repairs to fixing MOT failures and breakdowns.</p>
             <p>In the spring of 2021, I took up Kayaking by joining a group based in Peterborough. I am thoroughly addicted to this passtime now
                 and do it as often as I can. I have dabbled at playing guitar, I'm not great at it. I prefer piano / keyboard which I am a little 
                 better at.</p>
-            <p>I spent a majority of my adulthood, during spare time at first but later as a living, working around Horses. The time came when
-                I was no longer young or flexible enough to dedicate my life to this, it's a hard industry.</p>
-    
+            <p>For much of my adult life until recently, I have been around Horses. First this was a hobby but later I made a living working within 
+                the equine trade. The time came when I was no longer young or flexible enough to dedicate my life to this, it's a hard industry.</p>
+            </div>
         </div>
         
     </div> <!-- End of middle -->

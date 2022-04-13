@@ -8,12 +8,35 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/middle.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/Normal.css" id="displayMode">
+  
     <script src="js/anim_h3.js" defer></script>
     <script src="js/TimeOfDay.js" defer></script>
+    <script src="js/settings.js" defer></script>
 </head>
 <body>
     <div class="header">
-        <h1>Mark Foyster</h1>            
+        <div class="settingsTooltip">
+            <img id="settingsImg" src="images/cog.png" alt="Settings"/>
+            <span class="settingsTooltiptext">Click Here for Settings</span>
+            <div id="settingsBox">
+                <div id="smTitle">SETTINGS</div>
+                <form>
+                    <hr/>
+                    <b>Display Settings</b>
+                    <br/>
+                    <label for="normalMode">Normal Mode</label>
+                    <input type="radio" name="DisplayMode" id="normalMode" checked>
+                    <br/>
+                    <label for="darkMode">Dark Mode</label>
+                    <input type="radio" name="DisplayMode" id="darkMode">
+                    <hr/>
+                    <b>Background</b>
+                </form>
+            </div>
+        </div>
+        <h1>Mark Foyster</h1> 
+                
     </div><!-- End of header -->
 
     <div class="middle">
@@ -107,7 +130,8 @@
                 <td>(Not currently live)</td>
                 <td><a href="https://github.com/mxfoyster/WebGraph">https://github.com/mxfoyster/WebGraph</a></td>
             </tr>
-            <tr><td>Word Game</td><td>http://mark-foyster.epizy.com/</td><td>(Available post Assessment)</td></tr>
+            <tr><td>Word Game</td><td><a href="http://mark-foyster.epizy.com">http://mark-foyster.epizy.com</a> /</td>
+                <td>(Available post Assessment)</td></tr>
             </table>
 
             <h4 style="text-align: center;">Unity projects</h4>

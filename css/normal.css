@@ -1,0 +1,44 @@
+body
+{
+    color: blue;
+}
+
+.header
+{
+    background-image: linear-gradient(dimgray,darkgray);
+}
+
+.middle
+{
+    background-image: linear-gradient(darkgray,gray,darkgray);
+}
+
+.footer
+{
+    background-image: linear-gradient(darkgray,dimgray);
+}
+
+h4
+{
+    color: black;
+}
+
+a
+{
+    color: inherit;
+}
+
+.jsText
+{
+    color:black;
+}
+
+.linksTable
+{
+    background-color: aliceblue;
+}
+
+.linksTable th
+{
+	background-color: rgb(144, 171, 195);
+}

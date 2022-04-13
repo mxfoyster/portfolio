@@ -18,11 +18,12 @@ for(let counter in h3Tags) //Iterate through every <h3>
                 h3TimerHandles[counter] = setInterval(function(){AnimateH3Text(thisTagHandle,counter);},150);
         });
         h3TextArrayStart.push(thisTagHandle.innerHTML);//while we're here, let's store the full value of each <h3> before we mess with it!
+    
+        thisTagHandle.addEventListener("mouseout", function() //listen to mouse out in order to stop and reset animation 
+        {
+            resetH3Text (thisTagHandle,counter);
+        });
     }
-    thisTagHandle.addEventListener("mouseout", function() //listen to mouse out in order to stop and reset animation 
-    {
-        resetH3Text (thisTagHandle,counter);
-    });
 }
 
 //Called by the timer in "mouseover" to start animation

@@ -25,3 +25,52 @@ h1
 	text-align: center;
 	box-shadow: 4px 2px gray;
 }
+
+
+.settingsTooltip 
+{
+	position: absolute;
+	right: 30px;
+	top: 15px;
+ }
+  
+  .settingsTooltip .settingsTooltiptext 
+  {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	right: 30px;
+	top: 40px;
+	z-index: 1;
+  }
+  
+  .settingsTooltip:hover .settingsTooltiptext 
+  {
+	visibility: visible;
+  }
+
+  #settingsBox
+  {
+	visibility: hidden;
+	width: 200px;
+	position: absolute;
+	right: 5px;
+	top: 75px;
+	border-style: solid;
+	border-radius: 6px;
+	z-index: 1;
+	background-color: lightBlue;
+	color: black;
+  }
+
+  #smTitle
+  {
+	  font-size: 1.1rem;
+	  color: blue;
+	  padding-top: 5px;
+  }

@@ -3,10 +3,17 @@ const settingsImg = document.getElementById("settingsImg");
 const settingsBox = document.getElementById("settingsBox");
 const normalModeBtn = document.getElementById("normalMode");
 const darkModeBtn = document.getElementById("darkMode");
+const codeBKG = document.getElementById("codeBKG");
+const waterBKG = document.getElementById("waterBKG");
+const plainBKG = document.getElementById("plainBKG");
+
 //listeners
 settingsImg.addEventListener("click", ToggleSettingsBox);
 normalModeBtn.addEventListener("click", ChangeDisplayMode);
 darkModeBtn.addEventListener("click", ChangeDisplayMode);
+codeBKG.addEventListener("click", ChangeBKGMode);
+waterBKG.addEventListener("click", ChangeBKGMode);
+plainBKG.addEventListener("click", ChangeBKGMode);
 
 function ToggleSettingsBox()
 {
@@ -29,6 +36,14 @@ function ChangeDisplayMode()
         }
         LightMode();
 }
+
+function ChangeBKGMode()
+{
+    if (codeBKG.checked) document.body.style.background = "url('images/bkg.png')"; 
+    if (waterBKG.checked) document.body.style.background = "url('images/water.jpg')"; 
+    if (plainBKG.checked) document.body.style.background = "darkgray"; 
+}
+
 
 function DarkMode()
 {

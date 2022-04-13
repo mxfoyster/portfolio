@@ -26,16 +26,15 @@ h1
 	box-shadow: 4px 2px gray;
 }
 
-
-.settingsTooltip 
+.linkedInTooltip 
 {
 	position: absolute;
-	right: 30px;
-	top: 15px;
- }
+	left: 30px;
+	top: 18px;
+}
   
-  .settingsTooltip .settingsTooltiptext 
-  {
+.linkedInTooltip .linkedInTooltiptext 
+{
 	visibility: hidden;
 	width: 120px;
 	background-color: black;
@@ -44,18 +43,45 @@ h1
 	border-radius: 6px;
 	padding: 5px 0;
 	position: absolute;
-	right: 30px;
-	top: 40px;
+	left: 60px;
+	top: 0px;
 	z-index: 1;
-  }
-  
-  .settingsTooltip:hover .settingsTooltiptext 
-  {
-	visibility: visible;
-  }
+}
 
-  #settingsBox
-  {
+.linkedInTooltip:hover .linkedInTooltiptext 
+{
+	visibility: visible;
+}
+
+.settingsTooltip 
+{
+	position: absolute;
+	right: 30px;
+	top: 15px;
+ }
+  
+.settingsTooltip .settingsTooltiptext 
+{
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	right: 60px;
+	top: 0px;
+	z-index: 1;
+}
+  
+.settingsTooltip:hover .settingsTooltiptext 
+{
+	visibility: visible;
+}
+
+#settingsBox
+{
 	visibility: hidden;
 	width: 200px;
 	position: absolute;
@@ -66,11 +92,17 @@ h1
 	z-index: 1;
 	background-color: lightBlue;
 	color: black;
-  }
+}
 
   #smTitle
-  {
+{
 	  font-size: 1.1rem;
 	  color: blue;
 	  padding-top: 5px;
-  }
+}
+
+.settingsCloseMsg
+{
+	font-size: 10px;
+	font-weight: bold;
+}

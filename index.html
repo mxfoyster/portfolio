@@ -16,6 +16,13 @@
 </head>
 <body>
     <div class="header">
+        <div class="linkedInTooltip">
+        <a href="https://www.linkedin.com/in/mark-foyster-481a0431/">
+            <img id="linkedInLogo" src="images/LI-In-Bug.png" alt="LinkedIn Profile Page"/>
+        </a>
+        <span class="linkedInTooltiptext">Go to my LinkedIn Profile</span>
+        </div>
+
         <div class="settingsTooltip">
             <img id="settingsImg" src="images/cog.png" alt="Settings"/>
             <span class="settingsTooltiptext">Click Here for Settings</span>
@@ -32,7 +39,19 @@
                     <input type="radio" name="DisplayMode" id="darkMode">
                     <hr/>
                     <b>Background</b>
+                    <br/>
+                    <label for="codeBKG">Code Background</label>
+                    <input type="radio" name="BKGMode" id="codeBKG" checked>
+                    <br/>
+                    <label for="waterBKG">Water Background</label>
+                    <input type="radio" name="BKGMode" id="waterBKG">
+                    <br/>
+                    <label for="plainBKG">Plain Background</label>
+                    <input type="radio" name="BKGMode" id="plainBKG">
                 </form>
+            <hr/>
+            <div class="settingsCloseMsg">CLICK ON COG TO</div>
+            <div class="settingsCloseMsg">CLOSE SETTINGS</div>
             </div>
         </div>
         <h1>Mark Foyster</h1> 
@@ -52,8 +71,11 @@
             On a more general note, I would like to add that I love problem solving, and whilst I'm not afraid to use an existing solution, I 
             thrive when I have the opportunity to create my own. It is for these reasons that software development and I fit together well.</p>
 
-            <p>If you don't see the information you want or you would like a copy of my CV, please feel free
-            to tap the email symbol on the right hand side of the bar at the bottom and send me a message.</p>
+            <p>Feel free to skip past anything that doesn't interest you, I've tried to put something in here for everyone which means things can 
+                get a little long winded in places.</p>
+
+            <p>If you don't see the information you want or you would like a copy of my CV, please feel free to tap the email symbol on the right 
+                hand side of the footer and send me a message.</p>
             </div>
             <h3>Programming Languages</h3>
             <div id="langBodyDiv">
@@ -86,6 +108,44 @@
                 <p>As a child I programmed in various iterations of <b>Basic</b> quite a bit. It got me started.</P>
             </ul>
             </div>
+
+            <h3>Other Related Skills</h3>
+            <div class="otherBodyDivs">
+            <p>Other technologies related to sooftware development that I have skills in include <b>GIT CLI <i>(Bash Git)</i></b> which I have began 
+                using recently in place of <b>GitHub Desktop</b> of which I am also familiar. Naturally, I have a <b>GitHub</b> account that I use 
+                alongside these. For development environments, I use <b>Visual Studio 2022 (Community Edition)</b> for compiled code. For 
+                Interpreted (web) based code I use <b>Visual Studio Code</b>, having moved on from <b>Notepad++</b> which was my main-stay for 
+                quite a while.</p>
+            
+            <p>I use <b>Unity Hub</b> for my Unity 3D work which integrates well with Visual Studio. It's quite nice for a visual environment and 
+                i found it quite easy to get the hang of. I use <b>Audacity</b> if I need to edit audio files, though that's not often. I wish to
+                learn <b>Blender</b> for modelling etc, but it's a lower priority right now.</p>
+
+            <p>For web based work, I run <b>APACHE</b> server on my PC through <b>XAMPP</b>. I used to have an old PC that I installed <b>Linux</b>
+                onto and ran within a local network as a substitute for this. I found this better for testing across different environments and
+                different browsers. I'd like to do that again given the resources. Whilst on the subject of the web, I dabbled in the past with 3rd 
+                party CMS systems including <b>Joomla</b> and <b>Wordpress</b>. Whilst I prefer to hand code sites, I did find Joomla quite 
+                customisable and not too tricky to build templates for.</p>
+
+            <p>For image editing, my main choice is <b>GIMP</b> which being free, makes it all the better. I'm not an expert user, but I can get 
+                done what I need to. For lo-fo / mid-fi prototype interfaces, my choice of tool is <b>MS Powerpoint</b>. For practically anything
+                else, I find Google is my friend and there are endless resources out there. That said, I HATE copying and pasting someone else's 
+                code. I am more prone to learning from an example and making my own version, given the choice.</s>
+                </p>
+            </div>
+
+            <h3>Environments (O/S)</h3>
+            <div class="otherBodyDivs">
+            <p>Whilst a majority of my time has been spent within the <b>MS Windows</b> environment, I really enjoyed the days of the <b>MS DOS</b>
+                command prompt. I have played quite a bit with <b>Linux</b> in the past, I even had a stint with <b>Unix</b> and an old <b>Xenix</b>
+                server that ran a number of Wyse terminals. I helped with routine maintenance on this system.</p>
+                
+                <p>I owned a <i>Macbook</i> for a few years which I loved and got used to the <b>OS-X</b> environment. Having the ability to open
+                up a terminal and get to a <i>'Bash'</i> style environment was appealing to me too. In my youth, we had some legacy hardware
+                around and I had the opportunity to play with some <i>TRS-80's</i> which ran <b>TRS-DOS</b> in 5 1/4" Floppy's which was fun.</p>
+            </div>
+
+
             <h3>I.T. Qualifications</h3>
             <div id="langBodyDiv">
                 <h4>NCFE Level NCFE Level 3 User Experience/User Interface (UX/UI)</h4>
@@ -109,6 +169,7 @@
                     Console based programs, learnt how to handle and sort data directly, garbage collect and a little bit of <i>OOP</i>. 
                     I continued afterwards to further develop these skills. It's been a while now, but I am very keen to go back to it.</p>
             </div>
+            
             <h3>Links to my work</h3>
             <div class="otherBodyDivs">
                 <p>Some of the the projects I am showing here, in particular those further down each table are very crude, they are all proof of
@@ -154,16 +215,7 @@
             <h4>Other projects</h4>
                <p>Watch this space, more coming! Keep an eye on my <a href="https://github.com/mxfoyster/">GitHub</a> page too.</p>
             </div>
-            <h3>Environments (O/S)</h3>
-            <div class="otherBodyDivs">
-            <p>Whilst a majority of my time has been spent within the <b>MS Windows</b> environment, I really enjoyed the days of the <b>MS DOS</b>
-                command prompt. I have played quite a bit with <b>Linux</b> in the past, I even had a stint with <b>Unix</b> and an old <b>Xenix</b>
-                server that ran a number of Wyse terminals. I helped with routine maintenance on this system.</p>
-                
-                <p>I owned a <i>Macbook</i> for a few years which I loved and got used to the <b>OS-X</b> environment. Having the ability to open
-                up a terminal and get to a <i>'Bash'</i> style environment was appealing to me too. In my youth, we had some legacy hardware
-                around and I had the opportunity to play with some <i>TRS-80's</i> which ran <b>TRS-DOS</b> in 5 1/4" Floppy's which was fun.</p>
-            </div>
+            
             <h3>Other Interests & Activities</h3>
             <div class="otherBodyDivs">
             <p>I am interested in technology and science in general including engineering. I have played with electronics in the past including 

@@ -9,12 +9,19 @@
     <link rel="stylesheet" href="css/middle.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/Normal.css" id="displayMode">
+    <link rel="stylesheet" href="css/popup.css">
   
     <script src="js/anim_h3.js" defer></script>
     <script src="js/TimeOfDay.js" defer></script>
     <script src="js/settings.js" defer></script>
+    <script src="js/tablePopUp.js" defer></script>
 </head>
 <body>
+    <div id="popUpBox">
+        <h4>Title</h4>
+        <div id="closePopUp">X</div>
+        <p>Some info about this project and perhaps an image</p>
+    </div>
     <div class="header">
         <div class="linkedInTooltip">
         <a href="https://www.linkedin.com/in/mark-foyster-481a0431/">
@@ -178,20 +185,21 @@
             <table class="linksTable">
             <tr><th>Project Name</th><th>Link</th><th>Repository</th></tr>
             <tr>
-                <td>'Soggy Bottom' Kayak Website</td>
+                <td class="td1Popup">'Soggy Bottom' Kayak Website <span class="tableTip">Click for more info</span></td>
                 <td><a href="http://mark-foyster.epizy.com/kayak/">http://mark-foyster.epizy.com/kayak/</a></td>
                 <td>(Available post Assessment)</td></tr>
             <tr>
-                <td>Using Real Data</td>
+                <td class="td1Popup">Using Real Data<span class="tableTip">Click for more info</span></td>
                 <td><a href="http://mark-foyster.epizy.com/watersports/index.php">http://mark-foyster.epizy.com/watersports/index.php</a></td>
                 <td><a href="https://github.com/mxfoyster/UsingRealData1">https://github.com/mxfoyster/UsingRealData1</a></td>
             </tr>
             <tr>
-                <td>Web Graph</td>
+                <td class="td1Popup">Web Graph<span class="tableTip">Click for more info</span></td>
                 <td>(Not currently live)</td>
                 <td><a href="https://github.com/mxfoyster/WebGraph">https://github.com/mxfoyster/WebGraph</a></td>
             </tr>
-            <tr><td>Word Game</td><td><a href="http://mark-foyster.epizy.com">http://mark-foyster.epizy.com</a> /</td>
+            <tr><td class="td1Popup">Word Game<span class="tableTip">Click for more info</span></td>
+                <td><a href="http://mark-foyster.epizy.com">http://mark-foyster.epizy.com</a> /</td>
                 <td>(Available post Assessment)</td></tr>
             </table>
 
@@ -199,15 +207,15 @@
             <table class="linksTable">
             <tr><th>Project Name</th><th>Repository</th></tr>
             <tr>
-                <td>Modular Unity Bits</td>
+                <td class="td2Popup">Modular Unity Bits<span class="tableTip">Click for more info</span></td>
                 <td><a href="https://github.com/mxfoyster/ModularUnityBits">https://github.com/mxfoyster/ModularUnityBits</a></td>
             </tr>
             <tr>
-                <td>Penguin Flyer</td>
+                <td class="td2Popup">Penguin Flyer<span class="tableTip">Click for more info</span></td>
                 <td><a href="https://github.com/mxfoyster/PenguinFlyer">https://github.com/mxfoyster/PenguinFlyer</a></td>
             </tr>
             <tr>
-                <td>Unity Word game</td>
+                <td class="td2Popup">Unity Word game<span class="tableTip">Click for more info</span></td>
                 <td>(Available post Assessment)</td>
             </tr>
             </table>

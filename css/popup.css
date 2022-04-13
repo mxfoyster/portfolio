@@ -1,0 +1,28 @@
+#popUpBox
+{
+	position: absolute;
+	background-color: linen;
+	border-radius: 25px;
+	border: 3px solid mediumblue;
+	padding: 20px;
+	text-align: center;
+	width: 400px;
+	height: 200px;	
+	right: calc(50% - 200px);
+	top: calc(50% - 100px);
+    /* transform: translate(-50%, -50%); */
+	visibility: hidden;
+	z-index: 2;
+}
+
+#popUpBox h4
+{
+    color:red;
+}
+#closePopUp
+{
+    position: absolute;
+    font-size: 20px;
+    right: 20px;
+    top: 20px;
+}

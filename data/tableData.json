@@ -37,6 +37,12 @@
 },
 {
     "table": 2, "row": 3, 
+    "title":"Safe Cracker",
+    "img":"images/SafeCracker.png",
+    "text":"A code guessing game made as a 2D app in Unity. There's some sound effects too. This was only my second Unity Project on my own and was used as assessment material on the L3 course."
+},
+{
+    "table": 2, "row": 4, 
     "title":"Unity Word game",
     "img":"images/UnityWordGame.png",
     "text":"A spin off of the web version I made. Yet again, the user must guess the film name before the Penguin is built. Like it's predecessor, movie names are stored and retrieved through an <i>xml</i> file."

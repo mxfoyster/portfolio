@@ -75,7 +75,6 @@ hr
 	width: 80vw;
 	left: 10vw;
 	bottom: 92px;
-	max-height: 70vw;
 	background-image: linear-gradient(darkgray,gray,darkgray);
 	border-style: outset;
 	border-radius: 10px;
@@ -151,6 +150,54 @@ hr
 {
 	background-color:red; 
 	 visibility: visible; 
+}
+
+@media (max-width: 600px)
+{
+	#intro-div
+	{
+		min-height: 200px; 
+		padding-left: 0.5rem;
+	}	
+
+	#langBodyDiv
+	{
+		padding-left: 0.4rem;
+		padding-right: 0.4rem;
+	}
+
+	.otherBodyDivs
+	{
+		padding-left: 0.4rem;
+		padding-right: 0.4rem;
+	}
+
+	#headShot
+	{
+		content: url("../images/mugshotSml.png");
+	}
+	
+}
+
+@media (max-width: 400px)
+{
+	#langBodyDiv
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.otherBodyDivs
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.middle
+	{
+		width: 96vw;
+		left: 2vw;
+	}
 }
 
 

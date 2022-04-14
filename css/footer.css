@@ -95,6 +95,68 @@
    font-size: 30px;
 }
 
+@media (max-width: 600px)
+{
+	/* #footerLogo
+	{
+		width: 32px;
+		height: 32px;
+	} */
 
+	#ftMidText
+	{
+		font-size: 15px;
+	}
+
+	.jsText
+	{
+		visibility: hidden;
+	}
+
+	#footerLogo
+	{
+		position: relative;
+		top: -20px;
+	}
+}
+
+@media (max-width: 400px)
+{
+	/* #footerLogo
+	{
+		width: 32px;
+		height: 32px;
+	} */
+
+	#ftMidText
+	{
+		position: relative;
+		top: -15px;
+		font-size: 15px;
+	}
+
+	.jsText
+	{
+		visibility: hidden;
+	}
+
+	#footerLogo
+	{
+		position: relative;
+		top: -2vh;
+	}
+
+	.emailIcon
+	{
+		position: relative;
+		top: -1vh;
+	}
+
+	.footer
+	{
+		width: 96vw;
+		left: 2vw;
+	}
+}
 
   

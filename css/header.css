@@ -106,3 +106,29 @@ h1
 	font-size: 10px;
 	font-weight: bold;
 }
+
+@media (max-width: 600px)
+{
+	h1
+	{
+		font-size: 35px;
+		padding-top: 10px;
+	}
+}
+
+@media (max-width: 400px)
+{
+	h1
+	{
+		position: relative;
+		font-size: 20px;
+		overflow-wrap: break-word;
+		top: 15px;
+	}
+	
+	.header
+	{
+		width: 96vw;
+		left: 2vw;
+	}
+}

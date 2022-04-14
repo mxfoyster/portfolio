@@ -1,0 +1,44 @@
+[
+{
+    "table": 1,"row": 1, 
+    "title":"Soggy Bottom Kayak Website",
+    "img":"images/SoggyBottom.png",
+    "text":"Demonstrates Login Authentication and connecting to MySQL Database. An L3 Coding Practices project"
+},
+{
+    "table": 1, "row": 2, 
+    "title":"Using Real Data",
+    "img":"",
+    "text":"Demonstrates using <i>fetch()</i> to load a <i>.csv</i> file, parse it and display data using <i>Chart.js</i>."
+},
+{
+    "table": 1, "row": 3, 
+    "title":"Web Graph",
+    "img":"images/WebGraph.png",
+    "text":"A simple web app that uses <i>Chart.js</i> to plot pre-defined functions on a graph plus user can 'build' a straight line equation"
+},
+{
+    "table": 1, "row": 4, 
+    "title":"Word Game",
+    "img":"images/WordGame.png",
+    "text":"Simple 'hangman' spinoff where user has to guess the film name before a Penguin is built One of my early L3 Coding Practices projects"
+},
+{
+    "table": 2, "row": 1, 
+    "title":"Modular Unity Bits",
+    "img":"",
+    "text":"A home for some code I can recycle later. For now, a rotating carousel UI and an Audio Manager with controls."
+},
+{
+    "table": 2, "row": 2, 
+    "title":"Penguin Flyer",
+    "img":"images/PenguinFlyer.png",
+    "text":"A very silly but entertaining <i>Unity 3D</i> game where you must fly around and 'eat' the fish."
+},
+{
+    "table": 2, "row": 3, 
+    "title":"Unity Word game",
+    "img":"images/UnityWordGame.png",
+    "text":"A spin off of the web version I made. Yet again, the user must guess the film name before the Penguin is built"
+}
+]

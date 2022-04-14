@@ -3,30 +3,30 @@
     "table": 1,"row": 1, 
     "title":"Soggy Bottom Kayak Website",
     "img":"images/SoggyBottom.png",
-    "text":"Demonstrates Login Authentication and connecting to MySQL Database. An L3 Coding Practices project"
+    "text":"Demonstrates Login Authentication and retrieving data by connecting to <i>MySQL</i> Database using <i>PHP</i> and <i>JavaScript</i>. An L3 Coding Practices project"
 },
 {
     "table": 1, "row": 2, 
     "title":"Using Real Data",
-    "img":"",
+    "img":"images/UsingRealData.png",
     "text":"Demonstrates using <i>fetch()</i> to load a <i>.csv</i> file, parse it and display data using <i>Chart.js</i>."
 },
 {
     "table": 1, "row": 3, 
     "title":"Web Graph",
-    "img":"images/WebGraph.png",
+    "img":"images/WebGraph1.png",
     "text":"A simple web app that uses <i>Chart.js</i> to plot pre-defined functions on a graph plus user can 'build' a straight line equation"
 },
 {
     "table": 1, "row": 4, 
     "title":"Word Game",
     "img":"images/WordGame.png",
-    "text":"Simple 'hangman' spinoff where user has to guess the film name before a Penguin is built One of my early L3 Coding Practices projects"
+    "text":"Simple 'hangman' spinoff where user has to guess the film name before a Penguin is built One of my early L3 Coding Practices projects. The movie names are stored and retrieved through an <i>xml</i> file on the server"
 },
 {
     "table": 2, "row": 1, 
     "title":"Modular Unity Bits",
-    "img":"",
+    "img":"images/ModularUnity.png",
     "text":"A home for some code I can recycle later. For now, a rotating carousel UI and an Audio Manager with controls."
 },
 {
@@ -39,6 +39,6 @@
     "table": 2, "row": 3, 
     "title":"Unity Word game",
     "img":"images/UnityWordGame.png",
-    "text":"A spin off of the web version I made. Yet again, the user must guess the film name before the Penguin is built"
+    "text":"A spin off of the web version I made. Yet again, the user must guess the film name before the Penguin is built. Like it's predecessor, movie names are stored and retrieved through an <i>xml</i> file."
 }
 ]

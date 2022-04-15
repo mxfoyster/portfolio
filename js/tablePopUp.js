@@ -42,7 +42,7 @@ function CreatePopup(tableNumber, thisPopup)
             document.getElementById("popUpTitle").innerHTML= thisDataObject.title;
             document.getElementById("popUpText").innerHTML= thisDataObject.text;
             if (thisDataObject.img != "")
-                document.getElementById("popUpImg").innerHTML="<img src=\"" + thisDataObject.img + "\">";
+                document.getElementById("popUpImg").innerHTML="<img src=\"" + thisDataObject.img + "\"/>";
         }
     }
 }

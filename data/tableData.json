@@ -46,5 +46,11 @@
     "title":"Unity Word game",
     "img":"images/UnityWordGame.png",
     "text":"A spin off of the web version I made. Yet again, the user must guess the film name before the Penguin is built. Like it's predecessor, movie names are stored and retrieved through an <i>xml</i> file."
+},
+{
+    "table": 3, "row": 1, 
+    "title":"Random Windows Application",
+    "img":"images/randwin.png",
+    "text":"An extremely basic <i>WIN32</i> application that calculates the correct length for a Kayak paddle on given data. Programmed in <i>DEV C++</i> with no visual environment."
 }
 ]

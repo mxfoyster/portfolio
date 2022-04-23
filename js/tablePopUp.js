@@ -1,6 +1,7 @@
 //set up our handles
 const table1Links = document.getElementsByClassName("td1Popup");
 const table2Links = document.getElementsByClassName("td2Popup");
+const table3Links = document.getElementsByClassName("td3Popup");
 const popUpBox = document.getElementById("popUpBox");
 const closePopUp = document.getElementById("closePopUp");
 
@@ -22,6 +23,13 @@ for(let counter in table2Links)
     let thisT2Link = table2Links[counter]; 
     if (thisT2Link.innerHTML != null)
     thisT2Link.addEventListener("click", function(){CreatePopup(2,(+counter + 1));});
+}
+
+for(let counter in table3Links)
+{
+    let thisT3Link = table3Links[counter]; 
+    if (thisT3Link.innerHTML != null)
+    thisT3Link.addEventListener("click", function(){CreatePopup(3,(+counter + 1));});
 }
 
 //now load the data from our json file

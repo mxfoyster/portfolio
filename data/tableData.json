@@ -52,5 +52,11 @@
     "title":"Random Windows Application",
     "img":"images/randwin.png",
     "text":"An extremely basic <i>WIN32</i> application that calculates the correct length for a Kayak paddle on given data. Programmed in <i>DEV C++</i> with no visual environment."
+},
+{
+    "table": 3, "row": 2, 
+    "title":"First WPF App",
+    "img":"images/firstwpf.png",
+    "text":"After my <i>WIN32</i> application, I decided to do the exact same Paddle Length Calculator in <i>Visual Studio</i> using <i>WPF</i> and <i>C#</i>. Practically Child's Play comparatively."
 }
 ]
